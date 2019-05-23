@@ -14,4 +14,4 @@
         2. A* Search Algorithm
 ```
 ##  III. Reference
-[Markdown](https://www.javatpoint.com/ai-uninformed-search-algorithms)
+[javatpoint - AI](https://www.javatpoint.com/ai-uninformed-search-algorithms)
