@@ -19,4 +19,4 @@
 	Bước 4: Kết luận không tìm ra đỉnh đích cần tìm.
 ```
 #	Hình ảnh minh họa
-![alt](http://http://static.javatpoint.com/tutorial/ai/images/breadth-first-search.png)
+![alt](https://static.javatpoint.com/tutorial/ai/images/breadth-first-search.png)
