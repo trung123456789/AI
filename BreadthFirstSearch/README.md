@@ -1,4 +1,4 @@
-#Thuật giải
+#	Thuật giải
 ```	
 	Trước khi bắt đầu, tôi sẽ nêu ra một số quy ước để dễ dàng trong trình bày:
 
@@ -9,7 +9,7 @@
 	p: đỉnh đang xét, đang duyệt.
 ```
 
-#Trình bày thuật giải:
+#	Trình bày thuật giải:
 ```	
 	Bước 1: Tập Open chứa đỉnh gốc s chờ được xét.
 	Bước 2: Kiểm tra tập Open có rỗng không.
@@ -18,5 +18,5 @@
 	Bước 3: Đưa đỉnh p vào tập Close, sau đó xác định các đỉnh kề với đỉnh p vừa xét. Nếu các đỉnh kề không thuộc tập Close, đưa chúng vào cuối tập Open. Quay lại bước 2.
 	Bước 4: Kết luận không tìm ra đỉnh đích cần tìm.
 ```
-#Hình ảnh minh họa
-![alt](http://https://static.javatpoint.com/tutorial/ai/images/breadth-first-search.png)
+#	Hình ảnh minh họa
+![alt](http://http://static.javatpoint.com/tutorial/ai/images/breadth-first-search.png)
