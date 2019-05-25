@@ -17,20 +17,19 @@ DFS algorithm goes for deep down searching and sometime it may go to the infinit
 ```
 ### Ý tưởng thuật toán
 ```
-Từ đỉnh (nút) gốc ban đầu, thuật toán duyệt đi xa nhất theo từng nhánh, khi nhánh đã duyệt hết, lùi về từng đỉnh để tìm và duyệt những nhánh tiếp theo. Quá trình duyệt chỉ dừng lại khi tìm thấy đỉnh cần tìm hoặc tất cả đỉnh đều đã được duyệt qua.Ý tưởng thuật toán
-Từ đỉnh (nút) gốc ban đầu, thuật toán duyệt đi xa nhất theo từng nhánh, khi nhánh đã duyệt hết, lùi về từng đỉnh để tìm và duyệt những nhánh tiếp theo. Quá trình duyệt chỉ dừng lại khi tìm thấy đỉnh cần tìm hoặc tất cả đỉnh đều đã được duyệt qua.
+Từ đỉnh (nút) gốc ban đầu, thuật toán duyệt đi xa nhất theo từng nhánh, khi nhánh đã duyệt hết, lùi về từng đỉnh để tìm và duyệt những nhánh tiếp theo. Quá trình duyệt chỉ dừng lại khi tìm thấy đỉnh cần tìm hoặc tất cả đỉnh đều đã được duyệt qua.Ý tưởng thuật toán.
 ```
-#	Thuật giải
+###	Thuật giải
 ```	
 *   Open: là tập hợp các đỉnh chờ được xét ở bước tiếp theo theo ngăn xếp (ngăn xếp: dãy các phần tử mà khi thêm phần tử vào sẽ thêm vào đầu dãy, còn khi lấy phần tử ra sẽ lấy ở phần tử đứng đầu dãy).
 *   Close: là tập hợp các đỉnh đã xét, đã duyệt qua.
 *   s: là đỉnh xuất phát, đỉnh gốc ban đầu trong quá trình tìm kiếm.
 *   g: đỉnh đích cần tìm.
-*    p: đỉnh đang xét, đang duyệt.
+*   p: đỉnh đang xét, đang duyệt.
 
 ```
 
-#	Trình bày thuật giải:
+###	Trình bày thuật giải:
 ```	
     Bước 1: Tập Open chứa đỉnh gốc s chờ được xét.
     Bước 2: Kiểm tra tập Open có rỗng không.
@@ -39,7 +38,7 @@ Từ đỉnh (nút) gốc ban đầu, thuật toán duyệt đi xa nhất theo t
     Bước 3: Đưa đỉnh p vào tập Close, sau đó xác định các đỉnh kề với đỉnh p vừa xét. Nếu các đỉnh kề không thuộc tập Close, đưa chúng vào đầu tập Open. Quay lại bước 2.
     Bước 4: Kết luận không tìm ra đỉnh đích cần tìm.
 ```
-#	Hình ảnh minh họa
+###	Hình ảnh minh họa
 ```
 Root node--->Left node ----> right node.
 
@@ -48,6 +47,7 @@ it will backtrack the tree as E has no other successor and still goal node is no
 After backtracking it will traverse node C and then G, and here it will terminate as it found goal node.
 ```
 ![alt](https://static.javatpoint.com/tutorial/ai/images/depth-first-search.png)
+['S', 'A', 'B', 'D', 'E', 'C', 'G', 'H', 'I', 'K']
 ### Completeness: 
 `DFS search algorithm is complete within finite state space as it will expand every node within a limited search tree.`
 
