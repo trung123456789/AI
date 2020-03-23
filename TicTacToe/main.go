@@ -52,7 +52,6 @@ func main() {
 				}
 
 				initTableChess, _ = minimax(initTableChess, 1, true)
-				fmt.Println(initTableChess)
 
 				displayChess(initTableChess)
 				flag++
